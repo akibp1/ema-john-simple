@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
             <Header></Header>
+            
       <Router>
       <Switch>
         <Route path="/shop">
@@ -44,6 +45,7 @@ function App() {
       </Switch>
 
       </Router>
+      <footer>Design By Alamin </footer>
     </div>
   );
 }

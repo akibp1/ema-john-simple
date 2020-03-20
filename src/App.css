@@ -13,3 +13,9 @@
     transform: rotate(360deg);
   }
 }
+footer{
+  text-align: center;
+  background-color: rgb(193, 188, 188);
+  font-size: 20px;
+  font-weight: 500;
+}
