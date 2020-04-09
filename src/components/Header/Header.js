@@ -12,7 +12,7 @@ const Header = () => {
             <nav>
                 <a href="/shop">Shop</a>
                 <a href="/review">Order Review</a>
-                <a href="/orders">Manage Orders</a>
+                <a href="/inventory">Inventory</a>
                 {
                     auth.user &&
                     <span style={{ color: 'white' }}>Welcome{auth.user.name}</span>

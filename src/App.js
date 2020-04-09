@@ -9,7 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Review from './components/Review/Review';
-import Orders from './components/Orders/Orders';
+import Inventory from './components/Inventory/Inventory';
 import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import Login from './components/Login/Login';
@@ -33,8 +33,8 @@ function App() {
               <Review></Review>
 
             </Route>
-            <Route path="/orders">
-              <Orders></Orders>
+            <Route path="/inventory">
+              <Inventory></Inventory>
             </Route>
             <Route exact path="/">
               <Shop></Shop>
