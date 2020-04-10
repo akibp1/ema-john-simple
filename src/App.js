@@ -25,14 +25,15 @@ function App() {
 
         <Router>
           <Switch>
+            
             <Route path="/shop">
-
               <Shop></Shop>
             </Route>
+
             <Route path="/review">
               <Review></Review>
-
             </Route>
+
             <Route path="/inventory">
               <Inventory></Inventory>
             </Route>
